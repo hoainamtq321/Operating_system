@@ -1,5 +1,6 @@
 # Linux
 ## Kiến thức cần nắm:
+- [Các lệnh cơ bản thường dùng](#các-lệnh-cơ-bản-thường-dùng)
 
 - Cấu trúc thư mục (/etc, /var, /home, /usr, /tmp)
 
@@ -26,3 +27,11 @@
 - Câu lệnh nào để kiểm tra lịch sử đăng nhập gần đây?
 
 - Bạn có thể dùng lệnh nào để xem dung lượng ổ đĩa đang sử dụng?
+
+## Các lệnh cơ bản thường dùng
+
+Một số lệnh hay dùng trong Linux:
+
+- `ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv`, ...
+- `cat`, `less`, `more`, `head`, `tail`
+- `chmod`, `chown`, `ps`, `kill`, ...
