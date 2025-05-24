@@ -94,9 +94,16 @@
 - **chmod: Lệnh chmod trong Linux dùng để thay đổi quyền truy cập (read, write, execute) của file hoặc thư mục**
     - Cách dùng gắn quyền kiểu số: chmod 755 filename ( user:rwx , group:rx , other:rx )
     - Cách gắn dùng kiểu ký tự: chmod u+x filename
-u	user (chủ sở hữu), g	group (nhóm), o	others (người khác), a	all (tất cả), +	thêm quyền, -	xóa quyền, =	gán đúng quyền, xóa phần còn lại
+    - u	user (chủ sở hữu), g	group (nhóm), o	others (người khác), a	all (tất cả), +	thêm quyền, -	xóa quyền, =	gán đúng quyền, xóa phần còn lại
     - VD: chmod ug+rwx hello
+- **cat: đọc file**
+  - Ví dụ minh họa:
+  - cat ./flag.txt → đọc file trong thư mục hiện tại.
+  - cat ../flag.txt → đọc file ở thư mục cha.
+  - cat /home/user/flag.txt → đọc file ở đường dẫn tuyệt đối.
+  - cat /flag.txt → đọc file nằm ở thư mục gốc hệ thống.
 
+- 
 - hj
 - `ls`, `cd`, `pwd`, `mkdir`, `rm`, `cp`, `mv`, ...
 - `cat`, `less`, `more`, `head`, `tail`
